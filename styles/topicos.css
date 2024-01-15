@@ -28,3 +28,31 @@
     font-size: 14px;
     font-weight: 700;
 }
+
+.topicos__link:hover{
+    background-color: var(--cor-branca);
+    color: var(--cor-padrao);
+}
+
+@media screen and (min-width: 1024px) {
+
+    .topicos__titulo{
+        font-size: 24px;
+    }
+
+    .topicos__link{
+        font-size: 24px;
+    }
+    
+    .topicos__item:hover{
+        background-color: var(--cor-branca);
+    }
+
+}
+
+@media screen and (min-width: 1728px) {
+
+    .topicos{
+        padding: 3em 30vw;
+    }
+}
